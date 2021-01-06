@@ -1,0 +1,6 @@
+/db_data
+wordpress/*
+!wordpress/uploads
+wordpress/uploads/*
+!wordpress/uploads/wp2static-processed-site
+

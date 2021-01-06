@@ -1,0 +1,48 @@
+version: '3.3'
+
+services:
+  mysql:
+    image: mysql:8.0.22
+    ports:
+      - "13306:3306"
+    volumes:
+    - ./db_data:/var/lib/mysql
+    restart: always
+    # By adding this command option we’re specifying that the database should be run with native password authentication enables.
+    command: "--default-authentication-plugin=mysql_native_password"
+    environment:
+      MYSQL_ROOT_PASSWORD: toor
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: user
+      MYSQL_PASSWORD: resu
+
+  wordpress:
+    depends_on:
+      - mysql
+    image: wordpress:5.6.0-php7.4-apache
+    ports:
+      # - "8000:80"
+      # - "4443:443"
+      - '127.0.0.1:80:80'
+      - '127.0.0.1:443:443'
+    volumes:
+      - ./wordpress:/var/www/html/wp-content
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: user
+      WORDPRESS_DB_PASSWORD: resu
+      WORDPRESS_DB_NAME: wordpress
+
+  # phpmyadmin:
+  #   depends_on:
+  #     - mysql
+  #   image: phpmyadmin/phpmyadmin:5.0.0
+  #   restart: always
+  #   ports:
+  #     - 3333:80
+  #   environment:
+  #     PMA_HOST: mysql
+  #     MYSQL_ROOT_PASSWORT: toor
+  #   volumes:
+  #    - ./phpmyadmin:/sessions
