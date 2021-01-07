@@ -23,8 +23,10 @@ services:
     ports:
       # - "8000:80"
       # - "4443:443"
-      - '127.0.0.1:80:80'
-      - '127.0.0.1:443:443'
+      # - '127.0.0.1:80:80'
+      # - '127.0.0.1:443:443'
+      - "80:80"
+      - "443:443"
     volumes:
       - ./wordpress:/var/www/html/wp-content
     restart: always
@@ -34,15 +36,15 @@ services:
       WORDPRESS_DB_PASSWORD: resu
       WORDPRESS_DB_NAME: wordpress
 
-  # phpmyadmin:
-  #   depends_on:
-  #     - mysql
-  #   image: phpmyadmin/phpmyadmin:5.0.0
-  #   restart: always
-  #   ports:
-  #     - 3333:80
-  #   environment:
-  #     PMA_HOST: mysql
-  #     MYSQL_ROOT_PASSWORT: toor
-  #   volumes:
-  #    - ./phpmyadmin:/sessions
+  phpmyadmin:
+    depends_on:
+      - mysql
+    image: phpmyadmin/phpmyadmin:5.0.0
+    restart: always
+    ports:
+      - 3333:80
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORT: toor
+    volumes:
+     - ./phpmyadmin:/sessions
