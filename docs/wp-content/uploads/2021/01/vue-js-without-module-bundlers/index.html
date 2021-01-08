@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Static HTML With Vue.js Single File Component</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="vendor/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <script src="vendor/vue.js"></script>
+  <script src="vendor/vue-router.js"></script>
+  <script src="vendor/vuetify.js"></script>
+  <script src="vendor/http-vue-loader.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <v-app>
+      <v-navigation-drawer
+        v-model="drawer"
+        app
+      >
+        <app-navigation></app-navigation>
+      </v-navigation-drawer>
+
+      <v-app-bar
+        app
+        color="primary"
+        dark
+        elevate-on-scroll
+        >
+        <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+
+        <v-toolbar-title>Static HTML With Vue.js Single File Component</v-toolbar-title>
+      </v-app-bar>
+
+      <v-main>
+        <v-container fluid class="ma-0 pa-0 fill-height">
+          <router-view></router-view>
+        </v-container>
+      </v-main>
+
+      <v-footer absolute color="primary" dark app>
+        <v-col
+          class="text-center"
+          cols="12"
+        >
+          <strong>Guilherme Rodrigues</strong> - {{ new Date().getFullYear() }}
+        </v-col>
+      </v-footer>
+    </v-app>
+  </div>
+
+  <!-- SCRIPT -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
