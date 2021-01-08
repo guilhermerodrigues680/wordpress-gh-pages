@@ -138,6 +138,9 @@ body.custom-background { background-color: #f2f2f2; }
 		<h3 class="widget-title">Posts recentes</h3>
 		<ul>
 											<li>
+					<a href="http://localhost/2021/01/08/git-archive/">Git Archive</a>
+									</li>
+											<li>
 					<a href="http://localhost/2021/01/08/imagem-ou-container-para-arquivo/">Imagem ou container para arquivo</a>
 									</li>
 											<li>
@@ -153,11 +156,13 @@ body.custom-background { background-color: #f2f2f2; }
 	<div class="cats-widget">
 
 		<ul>
-			<li class="cat-item cat-item-11"><a href="http://localhost/category/shell-script/">Shell Script</a> <span>2</span>
+			<li class="cat-item cat-item-11"><a href="http://localhost/category/shell-script/">Shell Script</a> <span>3</span>
 </li>
 	<li class="cat-item cat-item-7 current-cat"><a aria-current="page" href="http://localhost/category/slide/">Slide</a> <span>1</span>
 </li>
 	<li class="cat-item cat-item-13"><a href="http://localhost/category/docker/">Docker</a> <span>1</span>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://localhost/category/git/">Git</a> <span>1</span>
 </li>
 		</ul>
 
@@ -165,12 +170,13 @@ body.custom-background { background-color: #f2f2f2; }
 
 		</aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Arquivos</h3>
 			<ul>
-					<li><a href='http://localhost/2021/01/'>janeiro 2021</a>&nbsp;(3)</li>
+					<li><a href='http://localhost/2021/01/'>janeiro 2021</a>&nbsp;(4)</li>
 			</ul>
 
 			</aside><aside id="categories-4" class="widget widget_categories"><h3 class="widget-title">Buscar Categoria</h3><form action="http://localhost" method="get"><label class="screen-reader-text" for="cat">Buscar Categoria</label><select  name='cat' id='cat' class='postform' >
 	<option value='-1'>Selecionar categoria</option>
 	<option class="level-0" value="13">Docker</option>
+	<option class="level-0" value="18">Git</option>
 	<option class="level-0" value="11">Shell Script</option>
 	<option class="level-0" value="7" selected="selected">Slide</option>
 </select>
@@ -211,7 +217,7 @@ body.custom-background { background-color: #f2f2f2; }
 						<ul id="menu-navbar-menu-1" class="nav footer-nav clearfix"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="/">Início</a></li>
 </ul>					</nav>
 					<div class="copyright col-md-6">
-						Copyright © Guilherme Rodrigues.						Theme by <a href="http://colorlib.com/" target="_blank">Colorlib</a> Powered by <a href="http://wordpress.org/" target="_blank">WordPress</a>					</div>
+						Copyright © Guilherme Rodrigues.						 					</div>
 				</div>
 			</div><!-- .site-info -->
 			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->

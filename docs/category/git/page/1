@@ -15,12 +15,12 @@
 <meta name="theme-color" content="#24292e">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
-<title>Shell Script &#8211; Guilherme Rodrigues</title>
+<title>Git &#8211; Guilherme Rodrigues</title>
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Feed para Guilherme Rodrigues &raquo;" href="http://localhost/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Feed de comentários para Guilherme Rodrigues &raquo;" href="http://localhost/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Feed de categoria para Guilherme Rodrigues &raquo; Shell Script" href="http://localhost/category/shell-script/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de categoria para Guilherme Rodrigues &raquo; Git" href="http://localhost/category/git/feed/" />
 <link rel='stylesheet' id='wp-block-library-css'  href='http://localhost/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
 <link rel='stylesheet' id='sparkling-bootstrap-css'  href='http://localhost/wp-content/themes/sparkling/assets/css/bootstrap.min.css?ver=5.6' type='text/css' media='all' />
 <link rel='stylesheet' id='sparkling-icons-css'  href='http://localhost/wp-content/themes/sparkling/assets/css/fontawesome-all.min.css?ver=5.1.1.' type='text/css' media='all' />
@@ -31,7 +31,7 @@
 <script type='text/javascript' src='http://localhost/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <script type='text/javascript' src='http://localhost/wp-content/themes/sparkling/assets/js/vendor/bootstrap.min.js?ver=5.6' id='sparkling-bootstrapjs-js'></script>
 <script type='text/javascript' src='http://localhost/wp-content/themes/sparkling/assets/js/functions.js?ver=20180503' id='sparkling-functions-js'></script>
-<link rel="https://api.w.org/" href="http://localhost/wp-json/" /><link rel="alternate" type="application/json" href="http://localhost/wp-json/wp/v2/categories/11" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="http://localhost/wp-json/" /><link rel="alternate" type="application/json" href="http://localhost/wp-json/wp/v2/categories/18" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 5.6" />
 <style type="text/css">.btn-default:hover, .btn-default:focus,.label-default[href]:hover, .label-default[href]:focus, .tagcloud a:hover, .tagcloud a:focus, button, .main-content [class*="navigation"] a:hover, .main-content [class*="navigation"] a:focus, #infinite-handle span:hover, #infinite-handle span:focus-within, .btn.btn-default.read-more:hover, .btn.btn-default.read-more:focus, .btn-default:hover, .btn-default:focus, .scroll-to-top:hover, .scroll-to-top:focus, .btn-default:active, .btn-default.active, .site-main [class*="navigation"] a:hover, .site-main [class*="navigation"] a:focus, .more-link:hover, .more-link:focus, #image-navigation .nav-previous a:hover, #image-navigation .nav-previous a:focus, #image-navigation .nav-next a:hover, #image-navigation .nav-next a:focus, .cfa-button:hover, .cfa-button:focus, .woocommerce a.button:hover, .woocommerce a.button:focus, .woocommerce button.button:hover, .woocommerce button.button:focus, .woocommerce input.button:hover, .woocommerce input.button:focus, .woocommerce #respond input#submit.alt:hover, .woocommerce #respond input#submit.alt:focus, .woocommerce a.button:hover, .woocommerce a.button:focus, .woocommerce button.button:hover, .woocommerce button.button:focus, .woocommerce input.button:hover, .woocommerce input.button:focus, .woocommerce a.button.alt:hover, .woocommerce a.button.alt:focus, .woocommerce button.button.alt:hover, .woocommerce button.button.alt:focus, .woocommerce input.button.alt:hover, .woocommerce input.button.alt:focus, a:hover .flex-caption h2 { background-color: #363636; border-color: #363636; }.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus-within, .pagination>li>span:hover {color: #363636;}h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .entry-title, .entry-title a {color: #292929;}.navbar.navbar-default, .navbar-default .navbar-nav .open .dropdown-menu > li > a {background-color: #24292e;}.navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li:focus-within > a, .navbar-nav > li:hover > .caret, .navbar-nav > li:focus-within > .caret, .navbar-default .navbar-nav.sparkling-mobile-menu > li.open > a, .navbar-default .navbar-nav.sparkling-mobile-menu > li.open > .caret, .navbar-default .navbar-nav > li:hover, .navbar-default .navbar-nav > li:focus-within, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > .caret, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {color: #dd3333;}@media (max-width: 767px){ .navbar-default .navbar-nav > li.open > a, .navbar-default .navbar-nav > li.open > .caret { color: #dd3333 !important; } }.dropdown-menu {background-color: #ffffff;}.navbar-default .navbar-nav .open .dropdown-menu > li > a, .dropdown-menu > li > a, .dropdown-menu > li > .caret { color: #636467;}.navbar-default .navbar-nav .dropdown-menu > li:hover, .navbar-default .navbar-nav .dropdown-menu > li:focus-within, .dropdown-menu > .active {background-color: #24292e;}@media (max-width: 767px) {.navbar-default .navbar-nav .dropdown-menu > li:hover, .navbar-default .navbar-nav .dropdown-menu > li:focus, .dropdown-menu > .active {background: transparent;} }#colophon {background-color: #1f1f1f;}#footer-area, .site-info, .site-info caption, #footer-area caption {color: #999999;}#footer-area {background-color: #313233;}#footer-area .social-icons li a {background-color: #363636 !important ;}body, .entry-content {color:#292929}.entry-content {font-family: Georgia;}.entry-content {font-size:18px}.entry-content {font-weight:normal}</style>		<style type="text/css">
 				.navbar > .container .navbar-brand {
@@ -48,7 +48,7 @@ body.custom-background { background-color: #f2f2f2; }
 
 </head>
 
-<body class="archive category category-shell-script category-11 custom-background">
+<body class="archive category category-git category-18 custom-background">
 <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 <div id="page" class="hfeed site">
 
@@ -99,7 +99,7 @@ body.custom-background { background-color: #f2f2f2; }
 
 			
 				<header class="page-header">
-					<h1 class="page-title">Categoria: <span>Shell Script</span></h1>				</header><!-- .page-header -->
+					<h1 class="page-title">Categoria: <span>Git</span></h1>				</header><!-- .page-header -->
 
 				
 <article id="post-102" class="post-102 post type-post status-publish format-standard hentry category-git category-shell-script">
@@ -121,56 +121,6 @@ body.custom-background { background-color: #f2f2f2; }
 
 				<p>“Exportando” um projeto do git em um arquivo compactado sem o diretório .git. OBS: o arquivo não conterá o diretório .git, mas conterá outros arquivos específicos do git ocultos, como .gitignore, .gitattributes, etc. Referências stackoverflow.com/questions/160608/do-a-git-export-like-svn-export</p>
 					<p><a class="btn btn-default read-more" href="http://localhost/2021/01/08/git-archive/" title="Git Archive">Leia Mais</a></p>
-				
-							</div><!-- .entry-content -->
-					</div>
-	</div>
-</article><!-- #post-## -->
-
-<article id="post-96" class="post-96 post type-post status-publish format-standard hentry category-docker category-shell-script">
-	<div class="blog-item-wrap">
-				<a href="http://localhost/2021/01/08/imagem-ou-container-para-arquivo/" title="Imagem ou container para arquivo" >
-							</a>
-		<div class="post-inner-content">
-			<header class="entry-header page-header">
-
-				<h2 class="entry-title"><a href="http://localhost/2021/01/08/imagem-ou-container-para-arquivo/" rel="bookmark">Imagem ou container para arquivo</a></h2>
-
-								<div class="entry-meta">
-					<span class="posted-on"><i class="fa fa-calendar-alt"></i> <a href="http://localhost/2021/01/08/imagem-ou-container-para-arquivo/" rel="bookmark"><time class="entry-date published" datetime="2021-01-08T13:13:55-03:00">8 de janeiro de 2021</time><time class="updated" datetime="2021-01-08T13:52:25-03:00">8 de janeiro de 2021</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://localhost/author/root/">root</a></span></span>
-				
-				</div><!-- .entry-meta -->
-							</header><!-- .entry-header -->
-
-						<div class="entry-content">
-
-				<p>Container para imagem Container para imagem Carregar container</p>
-					<p><a class="btn btn-default read-more" href="http://localhost/2021/01/08/imagem-ou-container-para-arquivo/" title="Imagem ou container para arquivo">Leia Mais</a></p>
-				
-							</div><!-- .entry-content -->
-					</div>
-	</div>
-</article><!-- #post-## -->
-
-<article id="post-92" class="post-92 post type-post status-publish format-standard hentry category-shell-script tag-linux tag-shell-script">
-	<div class="blog-item-wrap">
-				<a href="http://localhost/2021/01/08/comprimir-e-extrair-arquivos-no-terminal/" title="Comprimir e extrair arquivos no Terminal" >
-							</a>
-		<div class="post-inner-content">
-			<header class="entry-header page-header">
-
-				<h2 class="entry-title"><a href="http://localhost/2021/01/08/comprimir-e-extrair-arquivos-no-terminal/" rel="bookmark">Comprimir e extrair arquivos no Terminal</a></h2>
-
-								<div class="entry-meta">
-					<span class="posted-on"><i class="fa fa-calendar-alt"></i> <a href="http://localhost/2021/01/08/comprimir-e-extrair-arquivos-no-terminal/" rel="bookmark"><time class="entry-date published" datetime="2021-01-08T13:01:11-03:00">8 de janeiro de 2021</time><time class="updated" datetime="2021-01-08T13:55:31-03:00">8 de janeiro de 2021</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://localhost/author/root/">root</a></span></span>
-				
-				</div><!-- .entry-meta -->
-							</header><!-- .entry-header -->
-
-						<div class="entry-content">
-
-				<p>Comandos: Referências www.tecmint.com/18-tar-command-examples-in-linux www.rootusers.com/gzip-vs-bzip2-vs-xz-performance-comparison</p>
-					<p><a class="btn btn-default read-more" href="http://localhost/2021/01/08/comprimir-e-extrair-arquivos-no-terminal/" title="Comprimir e extrair arquivos no Terminal">Leia Mais</a></p>
 				
 							</div><!-- .entry-content -->
 					</div>
@@ -206,13 +156,13 @@ body.custom-background { background-color: #f2f2f2; }
 	<div class="cats-widget">
 
 		<ul>
-			<li class="cat-item cat-item-11 current-cat"><a aria-current="page" href="http://localhost/category/shell-script/">Shell Script</a> <span>3</span>
+			<li class="cat-item cat-item-11"><a href="http://localhost/category/shell-script/">Shell Script</a> <span>3</span>
 </li>
 	<li class="cat-item cat-item-7"><a href="http://localhost/category/slide/">Slide</a> <span>1</span>
 </li>
 	<li class="cat-item cat-item-13"><a href="http://localhost/category/docker/">Docker</a> <span>1</span>
 </li>
-	<li class="cat-item cat-item-18"><a href="http://localhost/category/git/">Git</a> <span>1</span>
+	<li class="cat-item cat-item-18 current-cat"><a aria-current="page" href="http://localhost/category/git/">Git</a> <span>1</span>
 </li>
 		</ul>
 
@@ -226,8 +176,8 @@ body.custom-background { background-color: #f2f2f2; }
 			</aside><aside id="categories-4" class="widget widget_categories"><h3 class="widget-title">Buscar Categoria</h3><form action="http://localhost" method="get"><label class="screen-reader-text" for="cat">Buscar Categoria</label><select  name='cat' id='cat' class='postform' >
 	<option value='-1'>Selecionar categoria</option>
 	<option class="level-0" value="13">Docker</option>
-	<option class="level-0" value="18">Git</option>
-	<option class="level-0" value="11" selected="selected">Shell Script</option>
+	<option class="level-0" value="18" selected="selected">Git</option>
+	<option class="level-0" value="11">Shell Script</option>
 	<option class="level-0" value="7">Slide</option>
 </select>
 </form>
