@@ -48,3 +48,11 @@ id:2 - home http://ip172-18-0-105-bvrk1c9lo55000eqhv1g-80.direct.labs.play-with-
 docker-compose exec -T mysql mysql -u"root" -p"toor" <<< "show databases; use wordpress; SHOW WARNINGS; UPDATE wp_options SET option_value = 'http://ip.com' WHERE wp_options.option_id = 1 OR wp_options.option_id = 2; SHOW WARNINGS;"
 
 docker-compose exec -T mysql mysql -u"root" -p"toor" <<< "UPDATE wordpress.wp_options SET option_value = 'http://ip.com' WHERE wp_options.option_id = 1 OR wp_options.option_id = 2;"
+
+## Scripts
+
+```sh
+bash mount-env.sh http://example.com
+bash deploy.sh
+bash backup-env.sh
+```

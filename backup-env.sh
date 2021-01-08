@@ -13,6 +13,19 @@ WORDPRESS_DB_BACKUP_FILE="wordpress-db.backup.sql.bz2"
 echo "Iniciando docker mysql service..."
 docker-compose up -d mysql
 
+echo "Aguardando inicio docker mysql service..."
+docker-compose exec -T mysql mysql -u root -p"toor" <<< "show databases;"
+RES=$?
+echo "RES: ${RES}"
+
+while [ "$RES" -ne 0 ]; do 
+    docker-compose exec -T mysql mysql -u root -p"toor" <<< "show databases;"
+    RES=$?
+    echo "RES: ${RES}"
+    echo "Aguardando inicio docker mysql service..."
+    sleep 1
+done
+
 echo "Removendo backup anterior"
 rm -rf $WORDPRESS_DIR_BACKUP_FILE $WORDPRESS_DB_BACKUP_FILE
 
@@ -20,6 +33,6 @@ echo "Backup pasta wordpress"
 tar cvfj $WORDPRESS_DIR_BACKUP_FILE wordpress
 
 echo "Backup banco"
-docker-compose exec -T mysql mysqldump -u root -p wordpress | bzip2 -cz > $WORDPRESS_DB_BACKUP_FILE
+docker-compose exec -T mysql mysqldump -u root -p"toor" wordpress | bzip2 -cz > $WORDPRESS_DB_BACKUP_FILE
 
 echo "OK!"

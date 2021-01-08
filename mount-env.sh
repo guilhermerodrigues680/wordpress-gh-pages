@@ -9,7 +9,15 @@ fi
 
 WORDPRESS_DIR_BACKUP_FILE="wordpress-dir.tar.bz2"
 WORDPRESS_DB_BACKUP_FILE="wordpress-db.backup.sql.bz2"
-HOST_WORDPRESS="http://ip172-18-0-59-bvrnojhlo55000eqi7m0-80.direct.labs.play-with-docker.com"
+HOST_WORDPRESS=$1
+
+if [ -z $HOST_WORDPRESS ]
+then
+    HOST_WORDPRESS="http://localhost"
+    echo "Não foi especificado um host, usando: ${HOST_WORDPRESS}"
+else
+    echo "Usando o host: ${HOST_WORDPRESS}"
+fi
 
 echo "Limpando ambiente atual"
 docker-compose down --rmi local
@@ -17,6 +25,20 @@ rm -rf db_data wordpress
 
 echo "Iniciando docker mysql service..."
 docker-compose up -d mysql
+
+echo "Aguardando inicio docker mysql service..."
+
+docker-compose exec -T mysql mysql -u root -p"toor" <<< "show databases;"
+RES=$?
+echo "RES: ${RES}"
+
+while [ "$RES" -ne 0 ]; do 
+    docker-compose exec -T mysql mysql -u root -p"toor" <<< "show databases;"
+    RES=$?
+    echo "RES: ${RES}"
+    echo "Aguardando inicio docker mysql service..."
+    sleep 1
+done
 
 echo "Restaurando banco..."
 cat $WORDPRESS_DB_BACKUP_FILE | bzip2 -ckd | docker-compose exec -T mysql mysql -u root -p"toor" wordpress
