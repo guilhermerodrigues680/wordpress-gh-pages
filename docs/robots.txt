@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://guilhermerodrigues680.github.io/wordpress-gh-pages/wp-sitemap.xml
+Sitemap: /wp-sitemap.xml
