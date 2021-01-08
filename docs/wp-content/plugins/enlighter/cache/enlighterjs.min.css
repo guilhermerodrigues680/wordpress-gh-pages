@@ -17,3 +17,6 @@
 .enlighter-default{}
 
 /* Enlighter dynamic generated stylesheet - DO NOT EDIT */
+.enlighter-default .enlighter-toolbar{display:block !important;}
+.enlighter-default .enlighter-btn-raw{display:none;}
+.enlighter-default .enlighter-btn-website{display:none;}
